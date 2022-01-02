@@ -1,0 +1,25 @@
+{
+    "name": "otto/project",
+    "autoload": {
+        "psr-4": {
+            "__PROJECT__\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        }
+    ],
+    "require": {
+        "otto/core": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "pds/skeleton": "^1.0"
+    },
+    "scripts": {
+        "serve": "open http://localhost:8099; php -S localhost:8099 -t ./public"
+    }
+}
