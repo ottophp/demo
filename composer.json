@@ -1,5 +1,5 @@
 {
-    "name": "otto/project",
+    "name": "ottophp/demo",
     "autoload": {
         "psr-4": {
             "__PROJECT__\\": "src/"
