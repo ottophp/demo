@@ -10,7 +10,7 @@ try {
 
     $container = new Container(
         new Definitions(),
-        require dirname(__DIR__) . "/config/providers.php"
+        require dirname(__DIR__) . "/config/http/providers.php"
     );
 
     $front = $container->get(Front::CLASS);
