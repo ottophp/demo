@@ -43,13 +43,14 @@ purposes, edit `resources/action.tpl` as you see fit.
 All templates are in `resources/responder/{$FORMAT}`, where `{$FORMAT}` is
 `html` or `json`.
 
-Layout templates are in the `{$FORMAT}/layout/` subdirectory. For HTML, these provide
-the common site wrapper display. For JSON, this provides a final chance to
-manipulate the template variables that will be JSON-encoded for the Response.
+Layout templates are in the `{$FORMAT}/layout/` subdirectory. For HTML, these
+provide the common site wrapper display. For JSON, this provides a final chance
+to manipulate the template variables that will be JSON-encoded for the
+Response.
 
 Status templates are in the `{$FORMAT}/status/` subdirectory. These are used
-when a domain payload is present but an action-specific template.
-The payload status will determine which status template is used.
+when a domain payload is present but an action-specific template. The payload
+status will determine which status template is used.
 
 Front templates (for presenting uncaught Throwables) are in the
 `{$FORMAT}/front/` subdirectory. Front templates are named for the Throwable
