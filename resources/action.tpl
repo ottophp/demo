@@ -19,7 +19,7 @@ class {CLASS}
 
     public function __invoke({PARAMETERS}) : Response
     {
-        $payload = ($this->domain)({PARAMETERS});
+        $payload = $this->domain->run({PARAMETERS});
         return $this->responder($this, $payload);
     }
 }
