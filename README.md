@@ -65,4 +65,4 @@ those errors appropriately.
 
 ## Summary
 
-Overall, the vast majority of you work should *not* be in the action.
+Overall, the vast majority of your work should *not* be in the action.
